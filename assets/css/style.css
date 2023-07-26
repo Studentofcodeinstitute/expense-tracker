@@ -34,3 +34,8 @@ head {
     width: 20%;
     margin: 5px;
 }
+
+button {
+    margin: 5px;
+    color: blue;
+}
