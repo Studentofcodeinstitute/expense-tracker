@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway%7CRighteous" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <head>
+        <h1>Expense Tracker</h1>
+        <p class="item">Add A New Item:</p>
+    </head>
+    <section>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="type">Type</label>
+            <select name="type" id="type">
+                <option value="cash">Cash</option>
+                <option value="credit">Credit-Card</option>
+            </select>
+
+            <label for="amount">Amount</label>
+            <input type="simbol" type="number" id="amount" name="amount">
+        </div>
+    </section>
+
+
+    <section>
+        <button data-type="submit">Add Expense</button>
+        <div></div>
+    </section>
+
 </body>
+
 </html>
