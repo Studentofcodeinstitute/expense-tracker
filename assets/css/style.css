@@ -39,3 +39,22 @@ button {
     margin: 5px;
     color: blue;
 }
+
+#expense-table {
+    margin-left: 25%;
+    margin-top: 3%;
+
+}
+
+table {
+
+    color: aliceblue;
+    text-align: center;
+    background: black;
+    width: 65%;
+}
+
+table,
+th {
+    border: 1px solid wheat;
+}

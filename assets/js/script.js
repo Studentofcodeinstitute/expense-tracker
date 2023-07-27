@@ -1,33 +1,15 @@
-let usernames = parseInt(document.getElementById("name").value);
+let button = document.getElementById("clicked");
 
-function buildTable() {
-    let html = `
-     <table>
-      <thead>
-         <tr>
-           <th>Name</th>
-           <th>Date</th>
-           <th>Type</th>
-           <th>Amount</th>
-        </tr>
-      </thead>
-      </tbody>
-`;
+function tableDetails() {
+    let name = document.getElementById('name').value;
+    let date = document.getElementById('date').value;
+    let type = document.getElementById('type').value;
+    let amount = document.getElementById('amount').value;
 
-    for (let username of usernames) {
-        let rowHtml = `
-       <tr>
-          <td>${username.name}</td>
-       </tr>
-`;
-        html += rowHtml;
+    if (!name || !date || !type || !amount) {
+        alert(`Unknown game type`);
+        return;
     }
-    html += `
-       </tbody>
-       </table>
-       `;
-    return html;
+    for
 }
-
-let table = buildTable();
-document.getElementById('expense-table').innerHTML = table;
+button.addEventListener("click", tableDetails);
