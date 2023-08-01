@@ -40,7 +40,7 @@ button {
     color: blue;
 }
 
-#expense-table {
+#table {
     margin-left: 25%;
     margin-top: 3%;
 
@@ -48,7 +48,7 @@ button {
 
 table {
 
-    color: aliceblue;
+    color: rgb(248, 250, 253);
     text-align: center;
     background: black;
     width: 65%;
@@ -56,5 +56,5 @@ table {
 
 table,
 th {
-    border: 1px solid wheat;
+    border: 1px solid rgb(58, 47, 27);
 }

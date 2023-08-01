@@ -36,18 +36,20 @@
             <label for="amount">Amount</label>
             <input type="simbol" type="number" id="amount" name="amount">
         </div>
-        <button id="clicked">Add Expense</button>
+        <button onclick="tableDetails()">Add Expense</button>
     </section>
 
 
     <section>
-        <div id="expense-table">
-            <table>
+        <div id="table">
+            <table id="expense-table">
                 <tr>
                     <th>Name</th>
                     <th>Date</th>
                     <th>Type</th>
                     <th>Amount</th>
+                    <th class="button">Action</th>
+
                 </tr>
             </table>
         </div>
