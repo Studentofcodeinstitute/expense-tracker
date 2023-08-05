@@ -36,13 +36,15 @@ function tableDetails(event) {
 
     row++;
 
-
-    localStorage.setItem("name", JSON.stringify(cell1));
-    localStorage.setItem("date", JSON.stringify(cell2));
-    localStorage.setItem("type", JSON.stringify(cell3));
-    localStorage.setItem("amount", JSON.stringify(cell4));
-    localStorage.setItem("html", JSON.stringify(cell5));
-
+/**
+ 
+ 
+    * localStorage.setItem("name", JSON.stringify(cell1));
+    * localStorage.setItem("date", JSON.stringify(cell2));
+    * localStorage.setItem("type", JSON.stringify(cell3));
+    * localStorage.setItem("amount", JSON.stringify(cell4));
+    * localStorage.setItem("html", JSON.stringify(cell5));
+*/
 }
 
 function resetForm() {

@@ -1,3 +1,7 @@
+
+
+
+
 body {
     background-color: white;
     font-family: "Raleway", sans-serif;
@@ -17,21 +21,25 @@ head {
 }
 
 #type {
+    border-color: aqua;
     width: 20%;
     margin: 1%;
 }
 
 #date {
+    border-color: aqua;
     width: 20%;
     margin: 1%;
 }
 
 #name {
+    border-color: aqua;
     width: 20%;
     margin: 1%;
 }
 
 #amount {
+    border-color: aqua;
     width: 20%;
     margin: 1%;
 }
@@ -67,11 +75,49 @@ th {
         width: 500px;
         font-size: 70%;
     }
+
+    button{
+        margin: 3%;
+    }
+
+    
+#type {
+    margin: 3%;
+}
+
+#date {
+    margin: 3%;
+}
+
+#name {
+    margin: 3%;
+}
+
+#amount {
+    margin: 3%;
+}
 }
 
 @media (max-width: 500px) {
     
     table{
-        width: 280px;
+        width: 300px;
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 350px) {
+    
+    table{
+        width: 250px;
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 250px) {
+    
+    table{
+        width: 150px;
+        font-size: 70%;
     }
 }
