@@ -14,11 +14,11 @@
 
 <body>
 
-    <head>
+    <header>
         <h1>Expense Tracker</h1>
         <p class="item">Add A New Item:</p>
-    </head>
-    <section>
+    </header>
+
         <div>
             <label for="name">Name</label>
             <input type="text" id="name" name="name">
@@ -34,13 +34,11 @@
             </select>
 
             <label for="amount">Amount</label>
-            <input type="simbol" type="number" id="amount" name="amount">
+            <input type="text" id="amount" name="amount">
         </div>
         <button onclick="tableDetails(event)">Add Expense</button>
-    </section>
-
-
-    <section>
+        <button onclick="tableReset()">delete all</button>
+      <div>
         <div id="table">
             <table id="expense-table">
                 <tr>
@@ -52,8 +50,7 @@
                 </tr>
             </table>
         </div>
-    </section>
-
+      </div>
     <script src="assets/js/script.js"></script>
 </body>
 
