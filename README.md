@@ -36,7 +36,7 @@ It's assembled by three part;
        
 ![alt text](assets/images/section2.png)
 
-![alt text](assets/images/fullscreen.png))
+![alt text](assets/images/fullscreen.png)
 
 # Validator Testing
 
@@ -56,22 +56,22 @@ The live link can be found here -
 
 # Credits
 
-Debugging can be divided in three part;
+Debugging can be divided in four parts;
 
 1. Conclusion to onclick function.
-2. Conclusion to row replacement after delete,
-3. Conclusion of localStorage, helped by mentor.
-4. Conclusion of delete all rows,
+2. Conclusion to row replacement after delete, assisted by mentor.
+3. Conclusion of localStorage, assisted by mentor.
+4. Conclusion of delete all rows, assisted by mentor.
 
 Checked by Tutor.
 
-# content
 
+# Media
 The Idea has taken from a video: 
 
 https://youtu.be/RYE0QQKJI9o
 
-# Media
+ # content
 
 Coding idea taken from:
 https://stackoverflow.com/questions/13049268/populate-table-using-submited-form-javascript
