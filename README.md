@@ -54,7 +54,7 @@ It's assembled by three part;
 
 # deployment
 
-The live link can be found here -
+The live link can be found here - https://studentofcodeinstitute.github.io/expense-tracker/
 
 # Credits
 
