@@ -58,12 +58,13 @@ The live link can be found here -
 
 # Credits
 
-Debugging can be divided in four parts;
+Debugging can be divided in five parts;
 
 1. Conclusion to onclick function.
-2. Conclusion to row replacement after delete, assisted by mentor.
-3. Conclusion of localStorage, assisted by mentor.
-4. Conclusion of delete all rows, assisted by mentor.
+2. Conclusion to row replacement after delete, assisted by Mentor.
+3. Conclusion of localStorage, assisted by Mentor.
+4. Conclusion of delete all rows, assisted by Mentor.
+5. Conclusion of delete a single row, assisted by Tutor.
 
 Checked by Tutor.
 
