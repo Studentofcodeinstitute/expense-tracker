@@ -46,7 +46,9 @@ It's assembled by three part;
 2. CSS
    No errors were found when passing through the official (Jigsaw) validator.
 
-3. Accessibility
+3. JSHint JavaScript Validator
+
+4. Accessibility
 
 ![alt text](assets/images/Accessibility-image.png)
 
