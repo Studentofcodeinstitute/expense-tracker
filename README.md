@@ -40,13 +40,13 @@ It's assembled by three part;
 
 # Validator Testing
 
-1. HTML
+1. HTML:
    No errors were returned when passing through the official W3C validator.
 
-2. CSS
+2. CSS:
    No errors were found when passing through the official (Jigsaw) validator.
 
-3. JSHint JavaScript Validator
+3. JSHint JavaScript Validator: No errors but warnings were found when passing through the official (JSHint) validator.
 
 4. Accessibility
 

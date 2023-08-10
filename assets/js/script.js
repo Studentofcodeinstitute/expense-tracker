@@ -1,5 +1,3 @@
-
-
 let row = 1;
 resetForm();
 const deleteHTML = `<button onclick="onClick(this);">Delete</button>`;
@@ -79,7 +77,7 @@ function onClick(td) {
 }
 
 function tableReset(){
-    if (confirm('Are you sure to Delete all')) {
+    if (confirm('Are you sure to delete all')) {
         const tableElement = document.getElementById('expense-table');
         localStorage.setItem("data", "[]");
         const tableRows = Array.from(tableElement.children[0].children);
@@ -108,7 +106,7 @@ function initialiseTable() {
         cell4.textContent = eachRow.amount;
         cell5.innerHTML = deleteHTML;
     });
-    localStorage.removeItem('deleteHTML');
+    
 }
 document.onload = initialiseTable();
 
