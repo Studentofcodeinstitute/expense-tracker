@@ -62,9 +62,23 @@ Debugging can be divided in five parts;
 
 1. Conclusion to onclick function.
 2. Conclusion to row replacement after delete, assisted by Mentor.
+    idea has taken from different website but the main one: https://www.w3schools.com/jsref/coll_table_rows.asp
 3. Conclusion of localStorage, assisted by Mentor.
 4. Conclusion of delete all rows, assisted by Mentor.
 5. Conclusion of delete a single row, assisted by Tutor.
+     idea has taken from this code: 
+     // add an event listener to the table row to remove it on click
+     tr.addEventListener("click", function() {
+     // remove the item from local storage
+     let items = JSON.parse(localStorage.getItem("items"));
+     let index = items.indexOf(item);
+     if (index > -1) {
+     items.splice(index, 1);
+     }
+     localStorage.setItem("items", JSON.stringify(items));
+     // remove the table row from the DOM
+     this.remove();
+     });
 
 Checked by Tutor.
 
